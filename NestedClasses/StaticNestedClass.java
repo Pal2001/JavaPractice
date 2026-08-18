@@ -11,7 +11,7 @@ public class StaticNestedClass{
 
     
 }
-// NOTE: Static nested class can not access non static methods and variables of outer class bcoz the class is not belong to outer class object.
+// NOTE: Static nested class can not access non static methods and variables of outer class bcoz the class is not belong to outer class object(basically if variables and methods were accessed by static nested class then they are not found bcoz normal variables and methods are object specific but outer class object is not created).
 class Outer{
  
     static class Inner{
